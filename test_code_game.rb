@@ -11,6 +11,3 @@ player2 = Player.new("プレイヤー２")
 game = Game.new([player1,player2])
 game.start
 
-#---配られたカードを表示する---
-puts player1.show_card
-puts player2.show_card

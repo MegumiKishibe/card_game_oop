@@ -31,6 +31,11 @@ class Game
     end
 
     def play_turn
+
+        @players.each do |player|
+            player.card = @deck.cards.pop
+        end
+        
         puts @players[0].show_card
         puts @players[1].show_card
 
