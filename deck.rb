@@ -17,11 +17,3 @@ class Deck
         @cards.shuffle!
     end
 end
-
-#---TESTCODE---
-deck = Deck.new
-
-#カードが５２枚生成されるか？
-puts "Total cards: #{deck.cards.size}"
-
-
